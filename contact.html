@@ -21,12 +21,28 @@
 
     <main>
         <section>
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="reason">Reason for contact:</label>
+                <select id="reason" name="reason" required>
+                    <option value="" disabled selected>Select a reason</option>
+                    <option value="saying_hi">Saying Hi</option>
+                    <option value="looking_for_contractor">Looking for a Contractor</option>
+                    <option value="interested_in_interview">Interested in an Interview</option>
+                </select>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Your comments here..."></textarea>
+
+                <button type="submit">Submit</button>
+            </form>  
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Fahmida's Blog</p>
-    </footer>
 </body>
 </html>
