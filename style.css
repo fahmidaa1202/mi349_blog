@@ -10,14 +10,12 @@
     width: 200px;
 }
 
-/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and Typography */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -37,13 +35,11 @@ p {
     line-height: 1.8;
 }
 
-/* Header */
 header {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Navigation */
 nav {
     background-color: #3498db;
     padding: 10px;
@@ -71,7 +67,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Main Content Layout */
 main {
     display: flex;
     gap: 20px;
@@ -94,7 +89,6 @@ article {
     border-radius: 5px;
 }
 
-/* Sidebar */
 section {
     flex: 1;
     padding: 15px;
@@ -103,7 +97,6 @@ section {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -147,7 +140,6 @@ button:hover {
     background-color: #2980b9;
 }
 
-/* Utility Classes */
 .hidden {
     display: none;
 }
@@ -156,7 +148,6 @@ button:hover {
     background-color: yellow;
 }
 
-/* ID and Attribute Selectors */
 #subscribe-button {
     background-color: #2ecc71;
 }
