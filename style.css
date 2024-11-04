@@ -23,3 +23,8 @@ body {
     color:#333
     padding: 20px;
 }
+
+h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
