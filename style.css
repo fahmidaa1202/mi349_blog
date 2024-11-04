@@ -34,3 +34,21 @@ p {
     font-size: 1rem;
     line-height: 1.8;
 }
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #3498db;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
