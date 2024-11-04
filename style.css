@@ -146,3 +146,12 @@ button:hover {
 .highlight {
     background-color: yellow;
 }
+
+#subscribe-button {
+    background-color: #2ecc71;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
